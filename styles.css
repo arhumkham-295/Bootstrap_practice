@@ -1,0 +1,22 @@
+/* .mysitenavbar{
+    background-color: black;
+    color: #ffffff;
+} */
+.herosectionimage{
+    height: 100vh;
+}
+h2{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 40px;
+}
+.maincardimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.card-title{
+    text-transform: capitalize;
+}
