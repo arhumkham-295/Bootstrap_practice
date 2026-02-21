@@ -20,3 +20,26 @@ h2{
 .card-title{
     text-transform: capitalize;
 }
+ .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover .btn {
+    background-color: blue;   
+    border-color: blue;
+}
+.ctpara {
+    text-transform: capitalize;
+    margin-top: 7px;
+    /* display: inline-block; */
+}
+
+.ctprice {
+    text-transform: capitalize;
+}
